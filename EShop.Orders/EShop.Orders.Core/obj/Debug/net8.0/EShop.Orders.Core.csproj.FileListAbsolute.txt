@@ -1,0 +1,12 @@
+C:\Users\eniva\source\repos\PROJETOS EM PROGRAMACAO\IMERSAO_DOTNET_EXPERT\e-commerce-project-dotnet-webapi\EShop.Orders\EShop.Orders.Core\bin\Debug\net8.0\EShop.Orders.Core.deps.json
+C:\Users\eniva\source\repos\PROJETOS EM PROGRAMACAO\IMERSAO_DOTNET_EXPERT\e-commerce-project-dotnet-webapi\EShop.Orders\EShop.Orders.Core\bin\Debug\net8.0\EShop.Orders.Core.dll
+C:\Users\eniva\source\repos\PROJETOS EM PROGRAMACAO\IMERSAO_DOTNET_EXPERT\e-commerce-project-dotnet-webapi\EShop.Orders\EShop.Orders.Core\bin\Debug\net8.0\EShop.Orders.Core.pdb
+C:\Users\eniva\source\repos\PROJETOS EM PROGRAMACAO\IMERSAO_DOTNET_EXPERT\e-commerce-project-dotnet-webapi\EShop.Orders\EShop.Orders.Core\obj\Debug\net8.0\EShop.Orders.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eniva\source\repos\PROJETOS EM PROGRAMACAO\IMERSAO_DOTNET_EXPERT\e-commerce-project-dotnet-webapi\EShop.Orders\EShop.Orders.Core\obj\Debug\net8.0\EShop.Orders.Core.AssemblyInfoInputs.cache
+C:\Users\eniva\source\repos\PROJETOS EM PROGRAMACAO\IMERSAO_DOTNET_EXPERT\e-commerce-project-dotnet-webapi\EShop.Orders\EShop.Orders.Core\obj\Debug\net8.0\EShop.Orders.Core.AssemblyInfo.cs
+C:\Users\eniva\source\repos\PROJETOS EM PROGRAMACAO\IMERSAO_DOTNET_EXPERT\e-commerce-project-dotnet-webapi\EShop.Orders\EShop.Orders.Core\obj\Debug\net8.0\EShop.Orders.Core.csproj.CoreCompileInputs.cache
+C:\Users\eniva\source\repos\PROJETOS EM PROGRAMACAO\IMERSAO_DOTNET_EXPERT\e-commerce-project-dotnet-webapi\EShop.Orders\EShop.Orders.Core\obj\Debug\net8.0\EShop.Orders.Core.sourcelink.json
+C:\Users\eniva\source\repos\PROJETOS EM PROGRAMACAO\IMERSAO_DOTNET_EXPERT\e-commerce-project-dotnet-webapi\EShop.Orders\EShop.Orders.Core\obj\Debug\net8.0\EShop.Orders.Core.dll
+C:\Users\eniva\source\repos\PROJETOS EM PROGRAMACAO\IMERSAO_DOTNET_EXPERT\e-commerce-project-dotnet-webapi\EShop.Orders\EShop.Orders.Core\obj\Debug\net8.0\refint\EShop.Orders.Core.dll
+C:\Users\eniva\source\repos\PROJETOS EM PROGRAMACAO\IMERSAO_DOTNET_EXPERT\e-commerce-project-dotnet-webapi\EShop.Orders\EShop.Orders.Core\obj\Debug\net8.0\EShop.Orders.Core.pdb
+C:\Users\eniva\source\repos\PROJETOS EM PROGRAMACAO\IMERSAO_DOTNET_EXPERT\e-commerce-project-dotnet-webapi\EShop.Orders\EShop.Orders.Core\obj\Debug\net8.0\ref\EShop.Orders.Core.dll
