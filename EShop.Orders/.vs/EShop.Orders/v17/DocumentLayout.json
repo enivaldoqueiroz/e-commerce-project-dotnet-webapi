@@ -1,71 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\eniva\\source\\repos\\PROJETOS EM PROGRAMACAO\\IMERSAO_DOTNET_EXPERT\\e-commerce-project-dotnet-webapi\\EShop.Orders\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{3143CED3-E8C8-44B5-97D8-F90DBF5B3986}|EShop.Orders.Infrastruture\\EShop.Orders.Infrastruture.csproj|c:\\users\\eniva\\source\\repos\\projetos em programacao\\imersao_dotnet_expert\\e-commerce-project-dotnet-webapi\\eshop.orders\\eshop.orders.infrastruture\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3143CED3-E8C8-44B5-97D8-F90DBF5B3986}|EShop.Orders.Infrastruture\\EShop.Orders.Infrastruture.csproj|solutionrelative:eshop.orders.infrastruture\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3456D03-6982-4A1B-A640-CE836CDDA093}|EShop.Orders.Core\\EShop.Orders.Core.csproj|c:\\users\\eniva\\source\\repos\\projetos em programacao\\imersao_dotnet_expert\\e-commerce-project-dotnet-webapi\\eshop.orders\\eshop.orders.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3456D03-6982-4A1B-A640-CE836CDDA093}|EShop.Orders.Core\\EShop.Orders.Core.csproj|solutionrelative:eshop.orders.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{170F3B63-7F6B-4C95-AC95-5CE8E5F5B13A}|EShop.Orders.Application\\EShop.Orders.Application.csproj|c:\\users\\eniva\\source\\repos\\projetos em programacao\\imersao_dotnet_expert\\e-commerce-project-dotnet-webapi\\eshop.orders\\eshop.orders.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{170F3B63-7F6B-4C95-AC95-5CE8E5F5B13A}|EShop.Orders.Application\\EShop.Orders.Application.csproj|solutionrelative:eshop.orders.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\eniva\\source\\repos\\PROJETOS EM PROGRAMACAO\\IMERSAO_DOTNET_EXPERT\\e-commerce-project-dotnet-webapi\\EShop.Orders\\EShop.Orders.Infrastruture\\Class1.cs",
-              "RelativeDocumentMoniker": "EShop.Orders.Infrastruture\\Class1.cs",
-              "ToolTip": "C:\\Users\\eniva\\source\\repos\\PROJETOS EM PROGRAMACAO\\IMERSAO_DOTNET_EXPERT\\e-commerce-project-dotnet-webapi\\EShop.Orders\\EShop.Orders.Infrastruture\\Class1.cs",
-              "RelativeToolTip": "EShop.Orders.Infrastruture\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T13:02:05.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\eniva\\source\\repos\\PROJETOS EM PROGRAMACAO\\IMERSAO_DOTNET_EXPERT\\e-commerce-project-dotnet-webapi\\EShop.Orders\\EShop.Orders.Core\\Class1.cs",
-              "RelativeDocumentMoniker": "EShop.Orders.Core\\Class1.cs",
-              "ToolTip": "C:\\Users\\eniva\\source\\repos\\PROJETOS EM PROGRAMACAO\\IMERSAO_DOTNET_EXPERT\\e-commerce-project-dotnet-webapi\\EShop.Orders\\EShop.Orders.Core\\Class1.cs",
-              "RelativeToolTip": "EShop.Orders.Core\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T13:01:48.944Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\eniva\\source\\repos\\PROJETOS EM PROGRAMACAO\\IMERSAO_DOTNET_EXPERT\\e-commerce-project-dotnet-webapi\\EShop.Orders\\EShop.Orders.Application\\Class1.cs",
-              "RelativeDocumentMoniker": "EShop.Orders.Application\\Class1.cs",
-              "ToolTip": "C:\\Users\\eniva\\source\\repos\\PROJETOS EM PROGRAMACAO\\IMERSAO_DOTNET_EXPERT\\e-commerce-project-dotnet-webapi\\EShop.Orders\\EShop.Orders.Application\\Class1.cs",
-              "RelativeToolTip": "EShop.Orders.Application\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T13:01:34.296Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
