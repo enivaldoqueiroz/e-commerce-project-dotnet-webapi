@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/EShop.Orders/.vs/EShop.Orders/v17/.suo
+/EShop.Orders/.vs/ProjectEvaluation/eshop.orders.metadata.v7.bin
+/EShop.Orders/.vs/ProjectEvaluation/eshop.orders.projects.v7.bin
+/EShop.Orders/.vs/EShop.Orders/DesignTimeBuild/.dtbcache.v2
+/EShop.Orders/.vs/EShop.Orders/FileContentIndex/0394758e-df1b-4ead-a600-93d4aa13f98b.vsidx
+/EShop.Orders/.vs/EShop.Orders/FileContentIndex/06fba268-4532-46c5-8aae-84d115b6ffc3.vsidx
+/EShop.Orders/.vs/EShop.Orders/FileContentIndex/1017f43e-ef9b-4b05-b3eb-2a28bc2eaa3b.vsidx
+/EShop.Orders/.vs/EShop.Orders/FileContentIndex/1bcdcca9-f0d3-4029-9e01-c6e2edfb14a8.vsidx
+/EShop.Orders/.vs/EShop.Orders/FileContentIndex/23739e70-51ca-43b2-89fa-116d7bb9bdcf.vsidx
+/EShop.Orders/.vs/EShop.Orders/FileContentIndex/4a5923db-4b5a-435d-a01f-9dcf58e666ed.vsidx
+/EShop.Orders/.vs/EShop.Orders/FileContentIndex/8258d5fc-f966-4609-a971-d9ea78318820.vsidx
+/EShop.Orders/.vs/EShop.Orders/FileContentIndex/c427bf26-42df-4f69-9b3c-fd6f2fb4e649.vsidx
+/EShop.Orders/.vs/EShop.Orders/FileContentIndex/ffbf6c2c-5aac-4881-9290-43bed1079dfe.vsidx
