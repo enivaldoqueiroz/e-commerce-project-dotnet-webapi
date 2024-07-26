@@ -1,4 +1,5 @@
 using EShop.Orders.Application;
+using EShop.Orders.Infrastruture;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +9,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddHandlers();
+builder.Services.AddMongo();
+builder.Services.AddRepositoreis();
 
 var app = builder.Build();
 
