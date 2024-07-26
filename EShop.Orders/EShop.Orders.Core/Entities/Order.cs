@@ -16,7 +16,7 @@ namespace EShop.Orders.Core.Entities
             PaymentInfo = paymentInfo;
             Items = items;
 
-            CreateAt = DateTime.Now;
+            CreatedAt = DateTime.Now;
 
             AddEvent(new OrderCreated(Id,
                                       TotalPrice,
@@ -31,7 +31,7 @@ namespace EShop.Orders.Core.Entities
         public PaymentAddress PaymentAddress { get; private set; }
         public PaymentInfo PaymentInfo { get; private set; }
         public List<OrderItem> Items { get; private set; }
-        public DateTime CreateAt { get; private set; }
+        public DateTime CreatedAt { get; private set; }
         public OrderStatus Status { get; set; }
 
         public void SetAsCompleted()

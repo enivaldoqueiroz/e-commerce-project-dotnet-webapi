@@ -2,9 +2,9 @@
 {
     public class OrderItem : IEntityBase
     {
-        public OrderItem(Guid id, Guid produtoId, int quatity, decimal price)
+        public OrderItem(Guid produtoId, int quatity, decimal price)
         {
-            Id = id;
+            Id = Guid.NewGuid();
             ProdutoId = produtoId;
             Quatity = quatity;
             Price = price;
