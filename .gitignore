@@ -96,3 +96,5 @@
 /EShop.Orders/EShop.Orders.Infrastruture/obj/Debug/net8.0/EShop.Or.BCA80003.Up2Date
 /EShop.Orders/EShop.Orders.Infrastruture/obj/Debug/net8.0/EShop.Orders.Infrastruture.csproj.CoreCompileInputs.cache
 /EShop.Orders/EShop.Orders.Infrastruture/obj/Debug/net8.0/EShop.Orders.Infrastruture.csproj.FileListAbsolute.txt
+/EShop.Orders/EShop.Orders.Application/bin/Debug/net8.0
+/EShop.Orders/EShop.Orders.Application/obj/EShop.Orders.Application.csproj.nuget.g.props

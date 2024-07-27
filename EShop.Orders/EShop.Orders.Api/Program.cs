@@ -11,6 +11,9 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddHandlers();
 builder.Services.AddMongo();
 builder.Services.AddRepositoreis();
+builder.Services.AddMessageBus();
+
+builder.Services.AddHttpClient();
 
 var app = builder.Build();
 

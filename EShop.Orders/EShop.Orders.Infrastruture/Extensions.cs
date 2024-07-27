@@ -1,11 +1,12 @@
 ﻿using EShop.Orders.Core.Repositories;
+using EShop.Orders.Infrastruture.MessageBus;
 using EShop.Orders.Infrastruture.Persistence;
 using EShop.Orders.Infrastruture.Persistence.Repositories;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using MongoDB.Bson;
 using MongoDB.Driver;
-using System.Runtime.CompilerServices;
+using RabbitMQ.Client;
 
 namespace EShop.Orders.Infrastruture
 {
@@ -45,6 +46,21 @@ namespace EShop.Orders.Infrastruture
         public static IServiceCollection AddRepositoreis(this IServiceCollection services)
         {
             services.AddScoped<IOrderRepository, OrderRepository>();
+
+            return services;
+        }
+
+        public static IServiceCollection AddMessageBus(this IServiceCollection services)
+        {
+            var connectionFactory = new ConnectionFactory
+            {
+                HostName = "localhost",
+            };
+
+            var connection = connectionFactory.CreateConnection("order-service-producer");
+
+            services.AddSingleton(new ProducerConnection(connection));
+            services.AddSingleton<IMessageBusClient, RabbitMQClient>();
 
             return services;
         }
