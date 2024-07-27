@@ -9,6 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddHandlers();
+builder.Services.AddSubscribers();
 builder.Services.AddMongo();
 builder.Services.AddRepositoreis();
 builder.Services.AddMessageBus();

@@ -1,4 +1,5 @@
 ﻿using EShop.Orders.Application.Commands;
+using EShop.Orders.Application.Subscribers;
 using Microsoft.Extensions.DependencyInjection;
 using System.Text;
 
@@ -9,6 +10,13 @@ namespace EShop.Orders.Application
         public static IServiceCollection AddHandlers(this IServiceCollection services)
         {
             services.AddMediatR(x => x.RegisterServicesFromAssembly(typeof(AddOrder).Assembly));
+
+            return services;
+        }
+
+        public static IServiceCollection AddSubscribers(this IServiceCollection services)
+        {
+            services.AddHostedService<PaymentAcceptedSubscriber>();
 
             return services;
         }
