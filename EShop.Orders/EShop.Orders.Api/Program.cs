@@ -2,7 +2,7 @@ using EShop.Orders.Application;
 using EShop.Orders.Infrastruture;
 
 var builder = WebApplication.CreateBuilder(args);
-
+var configuration = builder.Configuration;
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -13,6 +13,7 @@ builder.Services.AddSubscribers();
 builder.Services.AddMongo();
 builder.Services.AddRepositoreis();
 builder.Services.AddMessageBus();
+builder.Services.AddConsulConfig(configuration);
 
 builder.Services.AddHttpClient();
 
@@ -30,5 +31,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseConsul();
 
 app.Run();

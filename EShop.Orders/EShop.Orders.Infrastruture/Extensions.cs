@@ -1,9 +1,12 @@
-﻿using EShop.Orders.Core.Repositories;
+﻿using Consul;
+using EShop.Orders.Core.Repositories;
 using EShop.Orders.Infrastruture.MessageBus;
 using EShop.Orders.Infrastruture.Persistence;
 using EShop.Orders.Infrastruture.Persistence.Repositories;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using MongoDB.Bson;
 using MongoDB.Driver;
 using RabbitMQ.Client;
@@ -63,6 +66,46 @@ namespace EShop.Orders.Infrastruture
             services.AddSingleton<IMessageBusClient, RabbitMQClient>();
 
             return services;
+        }
+
+        public static IServiceCollection AddConsulConfig(this IServiceCollection services, IConfiguration configuration)
+        {
+            services.AddSingleton<IConsulClient, ConsulClient>(p => new ConsulClient(consulConfig =>
+            {
+                var address = configuration.GetConnectionString("Consul:Host");
+
+                consulConfig.Address = new Uri(address);
+
+            }));
+
+            return services;
+        }
+
+        public static IApplicationBuilder UseConsul(this IApplicationBuilder app)
+        {
+            var consulClient = app.ApplicationServices.GetRequiredService<ConsulClient>();
+            var lifeTime = app.ApplicationServices.GetRequiredService<IHostApplicationLifetime>();
+
+            var registration = new AgentServiceRegistration
+            {
+                ID = "order-service",
+                Name = "OrderService",
+                Address = "LocalHost",
+                Port = 5003
+            };
+
+            consulClient.Agent.ServiceDeregister(registration.ID).ConfigureAwait(true);
+            consulClient.Agent.ServiceRegister(registration).ConfigureAwait(true);
+
+            Console.WriteLine("Serice registered in Consul");
+
+            lifeTime.ApplicationStopping.Register(() =>
+            {
+                consulClient.Agent.ServiceDeregister(registration.ID).ConfigureAwait(true);
+                Console.WriteLine("Service registed in Consul");
+            });
+
+            return app;
         }
     }
 }
