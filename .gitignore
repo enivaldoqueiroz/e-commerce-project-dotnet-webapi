@@ -112,3 +112,5 @@
 /EShop.Orders/EShop.Orders.Core/obj/Release/net8.0
 /EShop.Orders/EShop.Orders.Infrastruture/obj/Release/net8.0
 /EShop.ApiGateway/EShop.ApiGateway/bin/Debug/net8.0
+*.v2
+/EShop.ApiGateway/.vs/EShop.ApiGateway/config/applicationhost.config

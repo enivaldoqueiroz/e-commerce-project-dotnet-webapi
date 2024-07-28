@@ -1,0 +1,15 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/pedido/{everything}", //rota publica
+      "DownstreamPathTemplate": "/pedido/{everything}", //rota privada
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost", //host api pedido
+          "Port": 5140 //porta api pedido
+        }
+      ]
+    }
+  ]
+}
