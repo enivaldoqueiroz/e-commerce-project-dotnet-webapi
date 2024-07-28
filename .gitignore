@@ -102,3 +102,13 @@
 /EShop.Orders/EShop.Orders.Application/obj/Debug/net8.0
 /EShop.Orders/EShop.Orders.Application/obj/EShop.Orders.Application.csproj.nuget.g.targets
 /EShop.Orders/EShop.Orders.Infrastruture/obj/EShop.Orders.Infrastruture.csproj.nuget.g.targets
+/.vs/slnx.sqlite
+/EShop.ApiGateway/.vs/EShop.ApiGateway/FileContentIndex
+/EShop.ApiGateway/.vs/EShop.ApiGateway/v17
+/EShop.ApiGateway/EShop.ApiGateway/obj/Debug/net8.0
+/EShop.ApiGateway/EShop.ApiGateway/obj
+/EShop.Orders/EShop.Orders.Api/obj/Release/net8.0
+/EShop.Orders/EShop.Orders.Application/obj/Release/net8.0
+/EShop.Orders/EShop.Orders.Core/obj/Release/net8.0
+/EShop.Orders/EShop.Orders.Infrastruture/obj/Release/net8.0
+/EShop.ApiGateway/EShop.ApiGateway/bin/Debug/net8.0
